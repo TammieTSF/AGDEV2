@@ -1,0 +1,55 @@
+﻿Build started 1/22/2016 4:58:01 PM.
+     1>Project "C:\Users\Tammie\Downloads\AGDEV\Assignments\Assignment 2\Y2S2_Framework\Base\Base.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Tammie\Downloads\AGDEV\Assignments\Assignment 2\Y2S2_Framework\/Common/Source" /I"C:\Users\Tammie\Downloads\AGDEV\Assignments\Assignment 2\Y2S2_Framework\/glew/include" /I"C:\Users\Tammie\Downloads\AGDEV\Assignments\Assignment 2\Y2S2_Framework\/include" /I"C:\Users\Tammie\Downloads\AGDEV\Assignments\Assignment 2\Y2S2_Framework\/glfw/include" /ZI /nologo /W3 /WX- /Od /Oy- /D _VARIADIC_MAX=10 /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source\Application.cpp
+         Application.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Tammie\Downloads\AGDEV\Assignments\Assignment 2\Y2S2_Framework\Debug\Base.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\Tammie\Downloads\AGDEV\Assignments\Assignment 2\Y2S2_Framework\Debug" /LIBPATH:"C:\Users\Tammie\Downloads\AGDEV\Assignments\Assignment 2\Y2S2_Framework\/glfw/lib-msvc100" /LIBPATH:"C:\Users\Tammie\Downloads\AGDEV\Assignments\Assignment 2\Y2S2_Framework\/lib" /LIBPATH:"C:\Users\Tammie\Downloads\AGDEV\Assignments\Assignment 2\Y2S2_Framework\/glew/lib" Common.lib winmm.lib opengl32.lib glu32.lib glew32.lib glfw3.lib lua5.1.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Tammie\Downloads\AGDEV\Assignments\Assignment 2\Y2S2_Framework\Debug\Base.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Tammie\Downloads\AGDEV\Assignments\Assignment 2\Y2S2_Framework\Debug\Base.lib" /MACHINE:X86 Debug\Projectile.obj
+         Debug\ProjectileManager.obj
+         Debug\Application.obj
+         Debug\Camera.obj
+         Debug\Camera3.obj
+         Debug\Enemy.obj
+         Debug\GameStateManager.obj
+         Debug\Goodies.obj
+         Debug\GoodiesFactory.obj
+         Debug\Grid.obj
+         Debug\HighScoreState.obj
+         Debug\InstructionState.obj
+         Debug\IntroState.obj
+         Debug\LevelSelectionState.obj
+         Debug\LoadOBJ.obj
+         Debug\LoadTGA.obj
+         Debug\main.obj
+         Debug\Map.obj
+         Debug\MenuState.obj
+         Debug\Mesh.obj
+         Debug\MeshBuilder.obj
+         Debug\Minimap.obj
+         Debug\Model.obj
+         Debug\Mtx44.obj
+         Debug\Node.obj
+         Debug\OptionState.obj
+         Debug\PlayerInfo.obj
+         Debug\PlayInfo3PV.obj
+         Debug\PlayState.obj
+         Debug\SceneManager.obj
+         Debug\SceneManager2D.obj
+         Debug\SceneNode.obj
+         Debug\shader.obj
+         Debug\SpatialPartition.obj
+         Debug\SplashState.obj
+         Debug\Strategy.obj
+         Debug\Strategy_Kill.obj
+         Debug\Text.obj
+         Debug\Transform.obj
+         Debug\TreasureChest.obj
+         Debug\Utility.obj
+     1>Projectile.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Base.vcxproj -> C:\Users\Tammie\Downloads\AGDEV\Assignments\Assignment 2\Y2S2_Framework\Debug\Base.exe
+     1>Done Building Project "C:\Users\Tammie\Downloads\AGDEV\Assignments\Assignment 2\Y2S2_Framework\Base\Base.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.91
